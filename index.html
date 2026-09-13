@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>GymGym</title>
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1c1b19">
+  <meta name="color-scheme" content="dark">
+
+  <!-- iOS PWA -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="GymGym">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <button id="btn-inicio" class="marca" type="button" aria-label="GymGym, ir a los días">GymGym</button>
+    <button id="btn-exportar" class="header-exportar" type="button">Exportar</button>
+  </header>
+
+  <main id="app" class="app-main"><!-- las vistas se montan aquí --></main>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

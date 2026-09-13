@@ -1,0 +1,13 @@
+# Configuracion local de Claude Code
+.claude/
+
+# Historiales exportados desde la app (datos personales, no codigo)
+gymgym-historial-*.json
+
+# Rutina completa con datos medicos: solo local, nunca publicar
+rutina-completa.json
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store

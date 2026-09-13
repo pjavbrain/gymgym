@@ -1,0 +1,2 @@
+# Las imagenes imagenInicial / imagenFinal de rutina.json se resuelven aqui: img/<archivo>
+# Si el campo esta vacio, la app no muestra nada (sin espacios rotos).
