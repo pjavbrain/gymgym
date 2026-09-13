@@ -1,6 +1,6 @@
 // Service worker: precache total -> la app funciona 100% sin conexion.
 
-const CACHE = 'gymgym-v2';
+const CACHE = 'gymgym-v3';
 
 const ASSETS = [
   './',

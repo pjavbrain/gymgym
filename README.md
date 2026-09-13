@@ -1,4 +1,6 @@
-# GymGym
+# Pedro Acosta Training
+
+(Repo e identificadores internos: `gymgym`.)
 
 PWA de registro de entrenamiento. Sin backend, sin CDN, sin dependencias. Datos en IndexedDB.
 
@@ -21,7 +23,6 @@ PWA de registro de entrenamiento. Sin backend, sin CDN, sin dependencias. Datos 
 - Resumen de sesion al cerrar el dia.
 - Boton **Importar** JSON (la logica `importarTodo` ya esta en `js/db.js`).
 - Pantalla de consideraciones / progresion de `rutina.json`.
-- Imagenes en `/img/` (el layout ya las contempla; si el campo esta vacio no muestra nada).
 - Temporizador de cuenta atras para los ejercicios por tiempo (wall sits, plancha).
 
 ## Diseño
@@ -92,7 +93,6 @@ js/
     dias.js           elegir dia
     ejercicios.js     lista de ejercicios del dia + estado
     ejercicio.js      registro de series + temporizador
-img/                  imagenInicial / imagenFinal se resuelven aqui
 icons/                iconos PNG generados
 tools/
   servir.ps1          servidor estatico de desarrollo

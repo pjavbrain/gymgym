@@ -12,12 +12,19 @@
           "series": 3,
           "repeticiones": "5",
           "pesoObjetivo": "",
-          "descansoSegundos": null,
+          "descansoSegundos": 180,
           "cue": "",
           "videoUrl": "",
           "notas": "Sin spotter: usar los topes del rack o la multipower. No fallar solo con barra libre. RIR 1-2.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Acuéstate con los ojos bajo la barra, pies firmes en el suelo y glúteos apoyados en el banco.",
+            "Junta y baja las escápulas; mantén un arco natural en la espalda alta.",
+            "Agarre algo más ancho que los hombros, muñecas rectas sobre los codos.",
+            "Toma aire, saca la barra y ubícala sobre los hombros con los brazos extendidos.",
+            "Baja controlado hasta tocar el pecho medio, con los codos a unos 45° del torso.",
+            "Empuja hacia arriba y un poco hacia atrás, hasta quedar sobre los hombros; suelta el aire al final.",
+            "Evita: rebotar la barra en el pecho, despegar los glúteos o abrir los codos a 90°."
+          ]
         },
         {
           "id": "lun-remo-barra",
@@ -26,12 +33,19 @@
           "series": 3,
           "repeticiones": "5",
           "pesoObjetivo": "",
-          "descansoSegundos": null,
+          "descansoSegundos": 180,
           "cue": "",
           "videoUrl": "",
-          "notas": "Correas obligatorias. No sostener la carga con la fuerza del antebrazo — es lo que irrita el epicóndilo. RIR 1-2.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "notas": "Correas obligatorias: no sostener la carga con la fuerza del antebrazo. RIR 1-2.",
+          "ejecucion": [
+            "Pies al ancho de la cadera, barra sobre la mitad del pie.",
+            "Pon las correas y agarra la barra algo más ancho que los hombros.",
+            "Lleva la cadera atrás hasta dejar el torso a unos 45°, espalda recta y rodillas algo flexionadas.",
+            "Aprieta el abdomen y tira de la barra hacia el abdomen bajo, llevando los codos atrás.",
+            "Junta las escápulas arriba y baja controlado hasta estirar los brazos.",
+            "Suelta el aire al subir y toma aire al bajar.",
+            "Evita: dar tirones con la cadera, redondear la espalda o levantar el torso para mover más peso."
+          ]
         },
         {
           "id": "lun-press-militar",
@@ -40,12 +54,19 @@
           "series": 3,
           "repeticiones": "5",
           "pesoObjetivo": "",
-          "descansoSegundos": null,
+          "descansoSegundos": 180,
           "cue": "Glúteo y abdomen apretados, sin arquear la lumbar.",
           "videoUrl": "",
           "notas": "RIR 1-2.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Barra en el rack a la altura de la clavícula; pies al ancho de la cadera.",
+            "Agarre apenas más ancho que los hombros, antebrazos verticales.",
+            "Aprieta glúteos y abdomen, toma aire y saca la barra.",
+            "Empuja la barra en línea recta hacia arriba, retirando la cara hacia atrás al pasar.",
+            "Arriba, mete la cabeza bajo la barra: brazos extendidos y barra sobre la mitad del pie.",
+            "Baja controlado hasta la clavícula y suelta el aire arriba.",
+            "Evita: arquear la zona lumbar, impulsarte con las piernas o llevar la barra por delante de la cara."
+          ]
         },
         {
           "id": "lun-encogimientos",
@@ -54,12 +75,18 @@
           "series": 3,
           "repeticiones": "6-8",
           "pesoObjetivo": "",
-          "descansoSegundos": null,
+          "descansoSegundos": 120,
           "cue": "Pausa 1 s arriba, sin rotar los hombros.",
           "videoUrl": "",
           "notas": "Zona prioritaria. Barra apoyada en multipower para no depender del agarre. RIR 1-2.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Ajusta la barra de la multipower a la altura de los muslos con los brazos estirados.",
+            "Párate erguido, agarre al ancho de los hombros y brazos rectos y sueltos.",
+            "Sube los hombros hacia las orejas en línea recta, sin flexionar los codos.",
+            "Aguanta 1 segundo arriba apretando el trapecio.",
+            "Baja lento hasta sentir el estiramiento completo.",
+            "Evita: rotar los hombros, adelantar la cabeza o ayudarte con las piernas."
+          ]
         },
         {
           "id": "lun-fondos",
@@ -68,12 +95,18 @@
           "series": 3,
           "repeticiones": "5-8",
           "pesoObjetivo": "",
-          "descansoSegundos": null,
+          "descansoSegundos": 120,
           "cue": "Tronco ligeramente inclinado para más pecho.",
           "videoUrl": "",
           "notas": "Con lastre si sobran reps, asistido si faltan. RIR 2.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Sujétate en las paralelas con los brazos extendidos y los hombros lejos de las orejas.",
+            "Inclina el tronco un poco hacia adelante y cruza los pies detrás.",
+            "Baja flexionando los codos, que van hacia atrás, hasta que los brazos queden paralelos al suelo.",
+            "Empuja hasta extender los brazos, sin bloquear los codos de golpe.",
+            "Toma aire al bajar y suéltalo al subir.",
+            "Evita: bajar de más, encoger los hombros o balancearte."
+          ]
         }
       ]
     },
@@ -92,9 +125,14 @@
           "descansoSegundos": null,
           "cue": "Sillín alto, sin resistencia.",
           "videoUrl": "",
-          "notas": "Bloque de activación obligatorio (10 min). Solo llevar sangre y sinovial a la rodilla. No es cardio.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "notas": "Bloque de activación obligatorio (10 min). Solo es para entrar en calor. No es cardio.",
+          "ejecucion": [
+            "Ajusta el sillín: con el pedal abajo, la pierna queda casi estirada.",
+            "Pon la resistencia al mínimo y pedalea a un ritmo cómodo y constante.",
+            "Espalda erguida y rodillas alineadas con los pies en todo el giro.",
+            "Respira normal: tienes que poder hablar sin esfuerzo.",
+            "Evita: subir la resistencia o pedalear de pie."
+          ]
         },
         {
           "id": "mar-wall-sits",
@@ -106,9 +144,15 @@
           "descansoSegundos": null,
           "cue": "Espalda plana contra la pared, muslos a 60º, no a 90º.",
           "videoUrl": "",
-          "notas": "Bloque de activación obligatorio. Isométrico: carga el tendón sin desgastar cartílago.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "notas": "Bloque de activación obligatorio. Isométrico.",
+          "ejecucion": [
+            "Apoya la espalda plana contra la pared y adelanta los pies unos dos pasos.",
+            "Pies al ancho de la cadera, puntas hacia el frente.",
+            "Desliza la espalda hacia abajo hasta que los muslos queden a unos 60°, sin llegar a 90°.",
+            "Rodillas sobre los tobillos, sin pasar la punta de los pies.",
+            "Aguanta el tiempo indicado respirando normal, sin contener el aire.",
+            "Evita: juntar las rodillas hacia adentro o apoyar las manos en los muslos."
+          ]
         },
         {
           "id": "mar-step-downs",
@@ -121,8 +165,15 @@
           "cue": "Bajar en 3 segundos, sin dejar que la rodilla se vaya hacia adentro.",
           "videoUrl": "",
           "notas": "Bloque de activación obligatorio. Escalón bajo. Es control excéntrico, no fuerza.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Súbete con un pie a un escalón bajo; el otro pie queda en el aire, por delante.",
+            "Cadera nivelada y manos en la cintura o apoyadas en algo para el equilibrio.",
+            "Baja en 3 segundos flexionando la rodilla de apoyo hasta rozar el suelo con el talón libre.",
+            "La rodilla de apoyo apunta al segundo dedo del pie: no se va hacia adentro.",
+            "Sube extendiendo la pierna de apoyo, sin impulsarte con el pie libre.",
+            "Haz todas las repeticiones con una pierna y luego cambia.",
+            "Evita: dejar caer la cadera del lado libre o bajar rápido."
+          ]
         },
         {
           "id": "mar-hip-thrust",
@@ -131,12 +182,19 @@
           "series": 3,
           "repeticiones": "5-8",
           "pesoObjetivo": "",
-          "descansoSegundos": null,
+          "descansoSegundos": 180,
           "cue": "Empuje explosivo, 1 s de pausa arriba apretando glúteo, bajada en 2 s.",
           "videoUrl": "",
-          "notas": "RIR 1-2 (muy pesado, con técnica impecable). El codo está a salvo: no se sostiene carga con las manos. Descanso del bloque: 2 a 3 minutos.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "notas": "RIR 1-2 (muy pesado, con técnica impecable). Descanso del bloque: 2 a 3 minutos.",
+          "ejecucion": [
+            "Siéntate en el suelo con la parte baja de los omóplatos contra el borde de un banco.",
+            "Rueda la barra hasta el pliegue de la cadera, con una almohadilla encima.",
+            "Pies al ancho de la cadera; colócalos para que arriba las tibias queden verticales.",
+            "Mentón recogido y costillas abajo; aprieta el abdomen.",
+            "Empuja explosivo con los talones hasta dejar el tronco paralelo al suelo.",
+            "Aguanta 1 segundo arriba apretando el glúteo y baja en 2 segundos.",
+            "Evita: arquear la zona lumbar arriba, empujar con la punta de los pies o mirar al techo."
+          ]
         },
         {
           "id": "mar-rdl",
@@ -145,12 +203,19 @@
           "series": 3,
           "repeticiones": "6-8",
           "pesoObjetivo": "",
-          "descansoSegundos": null,
+          "descansoSegundos": 180,
           "cue": "Tempo 3-0-1-0. Barra pegada al muslo, cadera atrás, rodilla casi fija.",
           "videoUrl": "",
-          "notas": "Correas de levantamiento obligatorias: dejar que la correa haga el trabajo para no irritar el codo. RIR 1-2. Con barra o mancuernas. Descanso del bloque: 2 a 3 minutos.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "notas": "Correas de levantamiento obligatorias: dejar que la correa haga el trabajo. RIR 1-2. Con barra o mancuernas. Descanso del bloque: 2 a 3 minutos.",
+          "ejecucion": [
+            "De pie con la barra a la altura de la cadera, pies al ancho de la cadera y correas puestas.",
+            "Rodillas algo flexionadas y fijas durante todo el movimiento.",
+            "Lleva la cadera atrás y deja que la barra baje pegada a los muslos en 3 segundos.",
+            "Baja hasta sentir tensión en la parte de atrás del muslo, sin redondear la espalda.",
+            "Sube empujando la cadera hacia adelante hasta quedar erguido, apretando el glúteo.",
+            "Toma aire arriba, aguántalo al bajar y suéltalo al terminar la subida.",
+            "Evita: flexionar más las rodillas al bajar, separar la barra del cuerpo o redondear la espalda."
+          ]
         },
         {
           "id": "mar-prensa-unilateral",
@@ -159,12 +224,19 @@
           "series": 3,
           "repeticiones": "8 por pierna",
           "pesoObjetivo": "",
-          "descansoSegundos": null,
+          "descansoSegundos": 180,
           "cue": "Pie en la zona medio-alta de la plataforma. Bajar solo hasta 90º de flexión de rodilla.",
           "videoUrl": "",
-          "notas": "La posición medio-alta transfiere más carga a glúteo e isquio y libera la rodilla. Rango articular seguro: tope de 90º. RIR 2. Descanso del bloque: 2 a 3 minutos.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "notas": "La posición medio-alta transfiere más carga a glúteo e isquio. Tope de 90º de flexión de rodilla. RIR 2. Descanso del bloque: 2 a 3 minutos.",
+          "ejecucion": [
+            "Siéntate con la espalda y la cadera bien apoyadas en el respaldo.",
+            "Coloca un pie en la zona medio-alta de la plataforma, alineado con la cadera; el otro fuera.",
+            "Quita los seguros y baja controlado hasta que la rodilla forme 90°.",
+            "Empuja con el talón y la mitad del pie hasta casi estirar la pierna.",
+            "La rodilla sigue la línea del pie en todo el recorrido.",
+            "Haz todas las repeticiones con una pierna y luego cambia.",
+            "Evita: despegar la cadera del asiento al bajar o bloquear la rodilla arriba."
+          ]
         },
         {
           "id": "mar-curl-femoral",
@@ -177,8 +249,14 @@
           "cue": "",
           "videoUrl": "",
           "notas": "Sentado o tumbado. RIR 1: aquí se puede acercar al fallo sin riesgo articular. Descanso del bloque: 2 a 3 minutos.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Ajusta la máquina: rodilla alineada con el eje y rodillo justo por encima del talón.",
+            "Sentado, fija el muslo con la almohadilla; tumbado, cadera pegada al banco.",
+            "Flexiona las rodillas llevando los talones hacia los glúteos.",
+            "Aprieta un instante en el punto de mayor flexión.",
+            "Vuelve en 2–3 segundos hasta casi estirar las piernas.",
+            "Evita: levantar la cadera, dar tirones o soltar el peso de golpe."
+          ]
         },
         {
           "id": "mar-gemelos",
@@ -191,8 +269,15 @@
           "cue": "Pausa de 2 segundos en el máximo estiramiento abajo.",
           "videoUrl": "",
           "notas": "Pesadas. Máquina de pie o prensa. Superserie con tibialis raises (antagonistas).",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Apoya la parte delantera de los pies en el borde de la plataforma, talones en el aire.",
+            "Rodillas estiradas sin bloquearlas y cuerpo erguido.",
+            "Baja los talones lo más posible y aguanta 2 segundos en el estiramiento.",
+            "Sube hasta quedar en la punta de los pies, lo más alto posible.",
+            "Baja lento, en unos 2 segundos.",
+            "Enlaza sin descanso con tibialis raises (superserie).",
+            "Evita: rebotar abajo o flexionar las rodillas para ayudarte."
+          ]
         },
         {
           "id": "mar-tibialis",
@@ -205,8 +290,14 @@
           "cue": "Talones fijos contra la pared, subir puntas y bajar en 2-3 s.",
           "videoUrl": "",
           "notas": "Sin carga las primeras semanas. Para progresar, acercar los pies a la pared. Superserie con gemelos (antagonistas). Único elemento conservado del protocolo ATG.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Apoya espalda y glúteos contra la pared, con los pies un poco adelantados.",
+            "Piernas estiradas y talones fijos en el suelo.",
+            "Sube las puntas de los pies lo más alto que puedas.",
+            "Baja en 2–3 segundos, sin llegar a apoyar las puntas del todo.",
+            "Enlaza sin descanso con la elevación de talones (superserie).",
+            "Evita: doblar las rodillas o despegar la espalda de la pared."
+          ]
         }
       ]
     },
@@ -226,8 +317,14 @@
           "cue": "Zona 2: se puede hablar, pero incómodo.",
           "videoUrl": "",
           "notas": "Es el pilar cardiovascular, no relleno.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Empieza con 5 minutos a ritmo suave.",
+            "Sube a un ritmo en el que puedas hablar, pero no cómodamente (zona 2).",
+            "Postura erguida, mirada al frente y brazos con movimiento natural.",
+            "Pasos cortos: apoya primero el talón y rueda hasta la punta.",
+            "Si puedes cantar, acelera; si no puedes hablar, baja el ritmo.",
+            "Evita: trotar o correr."
+          ]
         },
         {
           "id": "mie-wall-sits",
@@ -240,8 +337,14 @@
           "cue": "Muslos a 60º, espalda plana contra la pared.",
           "videoUrl": "",
           "notas": "Mismo protocolo que en la activación de los días de pierna.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Apoya la espalda plana contra la pared y adelanta los pies unos dos pasos.",
+            "Pies al ancho de la cadera, puntas hacia el frente.",
+            "Desliza la espalda hacia abajo hasta que los muslos queden a unos 60°, sin llegar a 90°.",
+            "Rodillas sobre los tobillos, sin pasar la punta de los pies.",
+            "Aguanta el tiempo indicado respirando normal, sin contener el aire.",
+            "Evita: juntar las rodillas hacia adentro o apoyar las manos en los muslos."
+          ]
         },
         {
           "id": "mie-step-downs",
@@ -254,8 +357,15 @@
           "cue": "Bajada de 3 segundos, sin valgo.",
           "videoUrl": "",
           "notas": "",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Súbete con un pie a un escalón bajo; el otro pie queda en el aire, por delante.",
+            "Cadera nivelada y manos en la cintura o apoyadas en algo para el equilibrio.",
+            "Baja en 3 segundos flexionando la rodilla de apoyo hasta rozar el suelo con el talón libre.",
+            "La rodilla de apoyo apunta al segundo dedo del pie: no se va hacia adentro.",
+            "Sube extendiendo la pierna de apoyo, sin impulsarte con el pie libre.",
+            "Haz todas las repeticiones con una pierna y luego cambia.",
+            "Evita: dejar caer la cadera del lado libre o bajar rápido."
+          ]
         },
         {
           "id": "mie-tibialis",
@@ -268,8 +378,13 @@
           "cue": "Talones fijos contra la pared, subir puntas y bajar en 2-3 s.",
           "videoUrl": "",
           "notas": "Sin carga las primeras semanas.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Apoya espalda y glúteos contra la pared, con los pies un poco adelantados.",
+            "Piernas estiradas y talones fijos en el suelo.",
+            "Sube las puntas de los pies lo más alto que puedas.",
+            "Baja en 2–3 segundos, sin llegar a apoyar las puntas del todo.",
+            "Evita: doblar las rodillas o despegar la espalda de la pared."
+          ]
         }
       ]
     },
@@ -289,8 +404,15 @@
           "cue": "Banco a 30º. Estirar bien abajo sin perder tensión.",
           "videoUrl": "",
           "notas": "RIR 1-2.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Ajusta el banco a unos 30° y siéntate con las mancuernas apoyadas en los muslos.",
+            "Recuéstate llevando las mancuernas al pecho con ayuda de las rodillas.",
+            "Junta las escápulas, pies firmes y pecho alto.",
+            "Empuja las mancuernas hacia arriba hasta casi juntarlas sobre la parte alta del pecho.",
+            "Baja en 2 segundos hasta sentir el estiramiento del pecho, con los codos a unos 45° del torso.",
+            "Suelta el aire al subir y toma aire al bajar.",
+            "Evita: chocar las mancuernas arriba, rebotar abajo o despegar la espalda del banco."
+          ]
         },
         {
           "id": "jue-jalon",
@@ -303,8 +425,15 @@
           "cue": "Llevar el codo hacia abajo y atrás, no tirar con la mano.",
           "videoUrl": "",
           "notas": "Correas. RIR 1-2.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Ajusta el rodillo para que sujete bien los muslos.",
+            "Pon las correas y agarra la barra algo más ancho que los hombros.",
+            "Inclina el torso un poco hacia atrás, con el pecho alto.",
+            "Tira llevando los codos hacia abajo y atrás hasta que la barra llegue a la parte alta del pecho.",
+            "Aprieta la espalda un instante abajo.",
+            "Sube controlado hasta estirar los brazos y sentir el estiramiento en la espalda.",
+            "Evita: echarte atrás para mover el peso, bajar la barra detrás de la nuca o tirar solo con los brazos."
+          ]
         },
         {
           "id": "jue-aperturas",
@@ -317,8 +446,15 @@
           "cue": "Codos ligeramente flexionados y fijos. Apretar 1 s en el cierre.",
           "videoUrl": "",
           "notas": "RIR 1-2.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Poleas a la altura de los hombros o un poco más arriba; un agarre en cada mano.",
+            "Da un paso adelante, un pie delante del otro y el torso algo inclinado.",
+            "Brazos abiertos con los codos un poco flexionados: esa flexión no cambia.",
+            "Junta las manos delante del pecho en un arco amplio, como si abrazaras un árbol.",
+            "Aprieta el pecho 1 segundo al cerrar.",
+            "Abre lento hasta sentir el estiramiento, sin llevar los codos detrás del cuerpo.",
+            "Evita: doblar los codos como en un press o balancear el cuerpo."
+          ]
         },
         {
           "id": "jue-elevaciones-laterales",
@@ -331,8 +467,14 @@
           "cue": "Peso ligero, sin balanceo.",
           "videoUrl": "",
           "notas": "El hombro redondo es lo que más ensancha bajo la ropa. RIR 1.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "De pie, una mancuerna en cada mano a los costados y rodillas sueltas.",
+            "Inclina apenas el torso hacia adelante y flexiona un poco los codos.",
+            "Sube los brazos hacia los lados hasta la altura de los hombros, guiando con los codos.",
+            "Arriba, los codos quedan a la altura de las manos o apenas por encima.",
+            "Baja en 2 segundos, sin dejar caer las mancuernas.",
+            "Evita: balancear el cuerpo, encoger los hombros al subir o pasar de la altura de los hombros."
+          ]
         },
         {
           "id": "jue-encogimientos",
@@ -345,8 +487,14 @@
           "cue": "",
           "videoUrl": "",
           "notas": "Zona prioritaria. Multipower o polea para no cargar el agarre. RIR 1-2.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "En multipower, barra a la altura de los muslos; en polea, un agarre a cada lado del cuerpo.",
+            "Párate erguido con los brazos estirados y sueltos.",
+            "Sube los hombros hacia las orejas en línea recta, sin flexionar los codos.",
+            "Aprieta un instante arriba.",
+            "Baja lento hasta sentir el estiramiento completo.",
+            "Evita: rotar los hombros, adelantar la cabeza o flexionar los codos."
+          ]
         },
         {
           "id": "jue-triceps-polea",
@@ -359,8 +507,15 @@
           "cue": "",
           "videoUrl": "",
           "notas": "Con cuerda. El tríceps es dos tercios del brazo: pesa más que el bíceps para el objetivo estético. RIR 1.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Polea alta con cuerda; agárrala con las palmas enfrentadas.",
+            "De pie cerca de la polea, torso apenas inclinado y codos pegados a los costados.",
+            "Extiende los codos hasta estirar los brazos, separando las puntas de la cuerda al final.",
+            "Aprieta el tríceps 1 segundo abajo.",
+            "Vuelve controlado hasta que los antebrazos queden un poco por encima de la horizontal.",
+            "Solo se mueven los antebrazos: los codos no se van hacia adelante.",
+            "Evita: echar el cuerpo sobre la cuerda o abrir los codos."
+          ]
         },
         {
           "id": "jue-curl-martillo",
@@ -372,9 +527,15 @@
           "descansoSegundos": 90,
           "cue": "Agarre neutro, peso ligero.",
           "videoUrl": "",
-          "notas": "CONDICIONAL: solo si el codo está en 0-1/10. Si molesta, se salta sin discusión — el tendón irritado no se entrena, se descarga. RIR 2.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "notas": "Condicional: hacerlo solo si te sientes bien ese día; si no, se salta. RIR 2.",
+          "ejecucion": [
+            "De pie, una mancuerna en cada mano con las palmas mirando hacia el cuerpo.",
+            "Codos pegados a los costados y hombros atrás.",
+            "Sube flexionando los codos sin girar las muñecas, hasta que el antebrazo quede casi vertical.",
+            "Baja en 2 segundos hasta estirar los brazos.",
+            "Puedes alternar brazos o subir los dos a la vez.",
+            "Evita: balancear el cuerpo o adelantar los codos."
+          ]
         }
       ]
     },
@@ -394,8 +555,13 @@
           "cue": "Sillín alto, sin resistencia.",
           "videoUrl": "",
           "notas": "Bloque de activación obligatorio (10 min).",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Ajusta el sillín: con el pedal abajo, la pierna queda casi estirada.",
+            "Pon la resistencia al mínimo y pedalea a un ritmo cómodo y constante.",
+            "Espalda erguida y rodillas alineadas con los pies en todo el giro.",
+            "Respira normal: tienes que poder hablar sin esfuerzo.",
+            "Evita: subir la resistencia o pedalear de pie."
+          ]
         },
         {
           "id": "vie-wall-sits",
@@ -408,8 +574,14 @@
           "cue": "Espalda plana contra la pared, muslos a 60º, no a 90º.",
           "videoUrl": "",
           "notas": "Bloque de activación obligatorio.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Apoya la espalda plana contra la pared y adelanta los pies unos dos pasos.",
+            "Pies al ancho de la cadera, puntas hacia el frente.",
+            "Desliza la espalda hacia abajo hasta que los muslos queden a unos 60°, sin llegar a 90°.",
+            "Rodillas sobre los tobillos, sin pasar la punta de los pies.",
+            "Aguanta el tiempo indicado respirando normal, sin contener el aire.",
+            "Evita: juntar las rodillas hacia adentro o apoyar las manos en los muslos."
+          ]
         },
         {
           "id": "vie-step-downs",
@@ -422,8 +594,15 @@
           "cue": "Bajar en 3 segundos, sin dejar que la rodilla se vaya hacia adentro.",
           "videoUrl": "",
           "notas": "Bloque de activación obligatorio. Escalón bajo.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Súbete con un pie a un escalón bajo; el otro pie queda en el aire, por delante.",
+            "Cadera nivelada y manos en la cintura o apoyadas en algo para el equilibrio.",
+            "Baja en 3 segundos flexionando la rodilla de apoyo hasta rozar el suelo con el talón libre.",
+            "La rodilla de apoyo apunta al segundo dedo del pie: no se va hacia adentro.",
+            "Sube extendiendo la pierna de apoyo, sin impulsarte con el pie libre.",
+            "Haz todas las repeticiones con una pierna y luego cambia.",
+            "Evita: dejar caer la cadera del lado libre o bajar rápido."
+          ]
         },
         {
           "id": "vie-hip-thrust",
@@ -436,8 +615,16 @@
           "cue": "Movimiento constante, manteniendo la tensión en el glúteo.",
           "videoUrl": "",
           "notas": "RIR 1-2. Menos explosivo que el martes, más continuo. Descanso del bloque: 90 segundos a 2 minutos.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Siéntate en el suelo con la parte baja de los omóplatos contra el borde de un banco.",
+            "Rueda la barra hasta el pliegue de la cadera, con una almohadilla encima.",
+            "Pies al ancho de la cadera; colócalos para que arriba las tibias queden verticales.",
+            "Mentón recogido y costillas abajo; aprieta el abdomen.",
+            "Sube empujando con los talones hasta dejar el tronco paralelo al suelo.",
+            "Baja sin apoyar la barra y vuelve a subir de forma continua, sin perder tensión en el glúteo.",
+            "En el KAS glute bridge el recorrido es corto: la cadera baja solo un poco.",
+            "Evita: arquear la zona lumbar arriba, empujar con la punta de los pies o mirar al techo."
+          ]
         },
         {
           "id": "vie-bulgara",
@@ -449,9 +636,16 @@
           "descansoSegundos": null,
           "cue": "Bajar solo hasta que el fémur esté paralelo al suelo (90º).",
           "videoUrl": "",
-          "notas": "Barra sobre el trapecio: las manos no sujetan peso, el codo se salva. Si la rodilla molesta, adelantar el pie de apoyo para que la tibia quede más vertical. RIR 1-2. Descanso del bloque: 90 segundos a 2 minutos.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "notas": "Barra sobre el trapecio: las manos no sujetan peso. Adelantar el pie de apoyo deja la tibia más vertical. RIR 1-2. Descanso del bloque: 90 segundos a 2 minutos.",
+          "ejecucion": [
+            "Coloca un banco detrás de la multipower y apoya la barra sobre el trapecio, no sobre el cuello.",
+            "Apoya el empeine del pie de atrás en el banco; el pie de adelante, bien adelantado.",
+            "Con el torso erguido, quita los seguros de la barra.",
+            "Baja en línea recta hasta que el muslo de adelante quede paralelo al suelo.",
+            "La rodilla de adelante sigue la línea del pie; el peso va en la mitad del pie y el talón.",
+            "Sube empujando con el pie de adelante. Haz todas las repeticiones y cambia de pierna.",
+            "Evita: impulsarte con la pierna de atrás, despegar el talón de adelante o bajar de más."
+          ]
         },
         {
           "id": "vie-extension-cuadriceps",
@@ -463,9 +657,16 @@
           "descansoSegundos": null,
           "cue": "No estirar la pierna del todo ni flexionar más de 90º. Tensión constante en el rango intermedio.",
           "videoUrl": "",
-          "notas": "Adaptación obligatoria por condromalacia: evitar los últimos 20º de extensión, donde la rótula roza más fuerte. Descanso del bloque: 90 segundos a 2 minutos.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "notas": "Rango limitado obligatorio: evitar los últimos 20º de extensión. Descanso del bloque: 90 segundos a 2 minutos.",
+          "ejecucion": [
+            "Ajusta el respaldo para que la rodilla quede alineada con el eje de la máquina.",
+            "Rodillo sobre el tobillo, espalda apoyada y manos en los agarres.",
+            "Empieza con la rodilla flexionada a 90°.",
+            "Extiende la pierna sin estirarla del todo: detente unos 20° antes.",
+            "Vuelve controlado sin pasar de 90° y sin soltar la tensión.",
+            "Movimiento continuo en el rango intermedio.",
+            "Evita: dar patadas, bloquear la rodilla arriba o levantar la cadera del asiento."
+          ]
         },
         {
           "id": "vie-abductores",
@@ -477,9 +678,15 @@
           "descansoSegundos": null,
           "cue": "Aguantar 2 segundos en la máxima apertura.",
           "videoUrl": "",
-          "notas": "Sentado, separando piernas. Un glúteo medio fuerte evita que la rodilla se vaya hacia adentro (valgo) y protege menisco y cartílago en el día a día. Descanso del bloque: 90 segundos a 2 minutos.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "notas": "Sentado, separando piernas. Trabaja el glúteo medio, que ayuda a que la rodilla no se vaya hacia adentro. Descanso del bloque: 90 segundos a 2 minutos.",
+          "ejecucion": [
+            "Siéntate con la espalda apoyada y las almohadillas por fuera de las rodillas.",
+            "Ajusta la apertura inicial para que las piernas queden casi juntas.",
+            "Separa las piernas empujando con la parte externa de las rodillas.",
+            "Aguanta 2 segundos en la máxima apertura.",
+            "Vuelve lento, sin dejar que las placas choquen.",
+            "Evita: impulsarte con el torso o despegar la espalda del respaldo."
+          ]
         },
         {
           "id": "vie-gemelos",
@@ -492,8 +699,15 @@
           "cue": "Rango completo, pausa abajo.",
           "videoUrl": "",
           "notas": "Superserie con tibialis raises (antagonistas).",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Apoya la parte delantera de los pies en el borde de la plataforma, talones en el aire.",
+            "Rodillas estiradas sin bloquearlas y cuerpo erguido.",
+            "Baja los talones lo más posible y aguanta un instante abajo.",
+            "Sube hasta quedar en la punta de los pies, lo más alto posible.",
+            "Baja lento, en unos 2 segundos.",
+            "Enlaza sin descanso con tibialis raises (superserie).",
+            "Evita: rebotar abajo o flexionar las rodillas para ayudarte."
+          ]
         },
         {
           "id": "vie-tibialis",
@@ -506,8 +720,14 @@
           "cue": "Talones fijos contra la pared, subir puntas y bajar en 2-3 s.",
           "videoUrl": "",
           "notas": "Sin carga las primeras semanas. Superserie con gemelos (antagonistas).",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Apoya espalda y glúteos contra la pared, con los pies un poco adelantados.",
+            "Piernas estiradas y talones fijos en el suelo.",
+            "Sube las puntas de los pies lo más alto que puedas.",
+            "Baja en 2–3 segundos, sin llegar a apoyar las puntas del todo.",
+            "Enlaza sin descanso con la elevación de talones (superserie).",
+            "Evita: doblar las rodillas o despegar la espalda de la pared."
+          ]
         }
       ]
     },
@@ -527,8 +747,15 @@
           "cue": "Ritmo al que se puede hablar pero no cómodamente (Zona 2).",
           "videoUrl": "",
           "notas": "Con desnivel o cuesta si es posible: sube el estímulo sin sumar impacto. Cero saltos, cero carrera. Sin acceso a gimnasio este día.",
-          "imagenInicial": "",
-          "imagenFinal": ""
+          "ejecucion": [
+            "Empieza con 5 minutos a ritmo suave.",
+            "Sube a un ritmo en el que puedas hablar, pero no cómodamente (zona 2).",
+            "Postura erguida, mirada al frente y brazos con movimiento natural.",
+            "Pasos cortos: apoya primero el talón y rueda hasta la punta.",
+            "Si puedes cantar, acelera; si no puedes hablar, baja el ritmo.",
+            "Si hay cuesta o cinta con inclinación, úsala: sube el esfuerzo sin sumar impacto.",
+            "Evita: trotar o correr."
+          ]
         }
       ]
     },

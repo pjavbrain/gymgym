@@ -1,7 +1,8 @@
-# GymGym
+# Pedro Acosta Training (repo `gymgym`)
 
 PWA para registrar entrenamientos en el gimnasio desde un iPhone 12 Pro Max: elegir día, anotar peso y repeticiones por serie, descanso automático, exportar historial. Uso real: un usuario, solo, a las 5 AM, con una mano y las manos sudadas.
 
+- Nombre visible: "Pedro Acosta Training" (barra y pestaña) y "PA Training" bajo el ícono. Los identificadores internos siguen como `gymgym`: repo, base IndexedDB, `CACHE` e `id` del manifest. **No renombrarlos**: se pierden los datos o la instalación del iPhone.
 - Producción: https://pjavbrain.github.io/gymgym/ (GitHub Pages desde `main`, raíz `/`)
 - Repo: https://github.com/pjavbrain/gymgym (público)
 - Mapa detallado y recorridos: `ARQUITECTURA.md`
@@ -36,7 +37,6 @@ js/vistas/            una vista por pantalla; cada una exporta montar(cont, para
   ejercicio.js        #/dia/:id/ej/:ejId
 tools/                servir.ps1, generar-iconos.ps1 (en uso), generar-iconos.mjs (alternativa)
 icons/                PNG generados; no editar a mano
-img/                  imagenInicial/imagenFinal de rutina.json
 ```
 
 ## Comandos
@@ -72,8 +72,10 @@ powershell -ExecutionPolicy Bypass -File tools/generar-iconos.ps1
   - `series: null` → ejercicio por tiempo (`esPorTiempo`): sin registro de series.
   - `descansoSegundos: null` → 90 s (`descansoSegundos`).
   - `repeticiones` es texto libre ("6-8", "8 por pierna", "30-45 s"): usar `textoRango`, `rangoCorto`, `unidadReps`, `esRangoPuro`.
-  - `imagenInicial`/`imagenFinal` vacíos → no renderizar nada; si existen, `img/<archivo>` con `onerror` que quita la imagen.
+  - `ejecucion` (lista de pasos) → desplegable "Cómo se hace" bajo las acciones (cerrado al entrar, igual que "Notas"), vía `pasosEjecucion`. Solo técnica: nada de lesiones ni diagnósticos (el repo es público).
+  - Sin imágenes: se decidió quitarlas (campos `imagenInicial`/`imagenFinal` eliminados). No volver a agregarlas sin preguntar.
   - `videoUrl` solo como enlace secundario discreto.
+- Cambios de contenido en `rutina.json` → replicarlos en `rutina-completa.json` (local).
 
 ### Datos (IndexedDB)
 - No cambiar `keyPath` ni índices sin subir `DB_VERSION` y escribir la migración en `onupgradeneeded`.
@@ -88,9 +90,10 @@ powershell -ExecutionPolicy Bypass -File tools/generar-iconos.ps1
 ### Diseño (skill `frontend-design` aplicada)
 - Tokens en `:root` de `styles.css`: caucho `#1c1b19`, goma `#2a2926`, línea `#3b3935`, tiza `#eeece7`, polvo `#a39f97`, azul disco 20 kg `#5a93f2` (descanso, en curso, hoy), verde disco 10 kg `#63b86a` (completo). No agregar colores fuera de los tokens.
 - Tipos: `--f-display` (DIN Condensed → Bahnschrift) para cifras y nombres; `--f-texto` (Avenir Next → Segoe UI) para texto. Solo fuentes del sistema.
-- Botones ≥ 60px de alto (principal 72px). Discos −/+ redondos de 64px.
+- Botones ≥ 60px de alto (principal 72px). Discos −/+ redondos de 64px: peso de 5 en 5 kg, repeticiones de 1 en 1 (segundos de 5 en 5).
 - Listas con reglas, no tarjetas. Etiquetas en minúscula normal: **sin MAYÚSCULAS espaciadas, sin "·" como separador, sin "›" o "→" al final de botones**.
 - Descanso en la zona del pulgar; avisos (`toast`) arriba.
+- Título del ejercicio en la pantalla de series: azul mientras faltan series, verde cuando están todas guardadas (`serie-nombre--completo`).
 - Respetar `prefers-reduced-motion` y `:focus-visible`.
 - Si `.descanso` u otro bloque usa `display`, recordar que `[hidden]` se fuerza con `!important`.
 
@@ -114,4 +117,4 @@ powershell -ExecutionPolicy Bypass -File tools/generar-iconos.ps1
 
 ## Pendiente (fase 2)
 
-Resumen de sesión al cerrar el día · botón importar (`importarTodo` ya existe en `db.js`) · pantalla de consideraciones/progresión (sin publicar datos médicos) · imágenes en `img/` · cuenta atrás para ejercicios por tiempo.
+Resumen de sesión al cerrar el día · botón importar (`importarTodo` ya existe en `db.js`) · pantalla de consideraciones/progresión (sin publicar datos médicos) · cuenta atrás para ejercicios por tiempo.

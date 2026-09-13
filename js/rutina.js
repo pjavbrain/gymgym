@@ -84,3 +84,9 @@ export function unidadReps(ej) {
 export function esRangoPuro(texto) {
   return /^\s*\d+(\s*[-–]\s*\d+)?\s*$/.test(String(texto || ''));
 }
+
+// Pasos de "Como se hace": lista de textos, vacia si el ejercicio no trae
+export function pasosEjecucion(ej) {
+  if (!Array.isArray(ej.ejecucion)) return [];
+  return ej.ejecucion.filter((p) => typeof p === 'string' && p.trim());
+}

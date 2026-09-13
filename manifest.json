@@ -1,7 +1,7 @@
 {
   "id": "/gymgym/",
-  "name": "GymGym",
-  "short_name": "GymGym",
+  "name": "Pedro Acosta Training",
+  "short_name": "PA Training",
   "description": "Registro de entrenamiento sin conexion para el gimnasio.",
   "start_url": "./",
   "scope": "./",

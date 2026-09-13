@@ -4,6 +4,7 @@ import { el, limpiar, toast, fmtFechaCorta, fmtNum, aNumero } from '../ui.js';
 import {
   getDia, getEjercicio, indiceEjercicio, numSeries, esPorTiempo,
   descansoSegundos, primerNumero, partesDia, textoRango, unidadReps, esRangoPuro,
+  pasosEjecucion,
 } from '../rutina.js';
 import {
   getSesionAbierta, getSeriesDeEjercicioEnSesion, getUltimaVez,
@@ -54,7 +55,8 @@ export async function montar(cont, { id, ejId }) {
     }),
     el('span', { class: 'serie-dia', text: nombreDia }),
   ]));
-  cont.appendChild(el('h1', { class: 'serie-nombre', text: ej.nombre }));
+  const nombreEl = el('h1', { class: 'serie-nombre', text: ej.nombre });
+  cont.appendChild(nombreEl);
   if (ej.cue) cont.appendChild(el('p', { class: 'serie-cue', text: ej.cue }));
 
   const numEl = el('span', { class: 'serie-num' });
@@ -82,7 +84,7 @@ export async function montar(cont, { id, ejId }) {
     pesoInput = inputCarga('peso-real', 'Peso en kilos');
     repsInput = inputCarga('reps-real', nombreUnidad[0].toUpperCase() + nombreUnidad.slice(1));
     cont.appendChild(el('div', { class: 'carga' }, [
-      filaCarga(pesoInput, 'kg', 1.25, '1,25 kg'),
+      filaCarga(pesoInput, 'kg', 5, '5 kg'),
       filaCarga(repsInput, unidad, pasoReps, `${pasoReps} ${unidad === 'reps' ? 'repetición' : nombreUnidad}`),
     ]));
     prefill();
@@ -117,8 +119,15 @@ export async function montar(cont, { id, ejId }) {
   ]);
   cont.appendChild(descanso);
 
-  // ---------- extras discretos ----------
+  // ---------- extras plegables: como se hace, notas, video ----------
   const extras = el('div', { class: 'extras' });
+  const pasos = pasosEjecucion(ej);
+  if (pasos.length) {
+    extras.appendChild(el('details', {}, [
+      el('summary', { text: 'Cómo se hace' }),
+      el('ol', { class: 'pasos' }, pasos.map((p) => el('li', { text: p }))),
+    ]));
+  }
   if (ej.notas) {
     extras.appendChild(el('details', {}, [
       el('summary', { text: 'Notas' }),
@@ -130,13 +139,6 @@ export async function montar(cont, { id, ejId }) {
       class: 'link-video', href: ej.videoUrl, target: '_blank', rel: 'noopener noreferrer',
       text: 'Ver video del ejercicio',
     }));
-  }
-  const imgs = [ej.imagenInicial, ej.imagenFinal].filter((s) => s && s.trim());
-  if (imgs.length) {
-    extras.appendChild(el('div', { class: 'ej-imagenes' }, imgs.map((nombre) => el('img', {
-      src: `img/${nombre}`, alt: '', loading: 'lazy',
-      onerror: (e) => e.target.remove(),
-    }))));
   }
   if (extras.childNodes.length) cont.appendChild(extras);
 
@@ -167,6 +169,8 @@ export async function montar(cont, { id, ejId }) {
       btnGuardar.disabled = false;
     }
 
+    // azul mientras quedan series; verde cuando estan todas guardadas
+    nombreEl.classList.toggle('serie-nombre--completo', !porTiempo && listo);
     btnCompleto.className = 'btn' + (listo ? ' btn-principal' : '');
   }
 

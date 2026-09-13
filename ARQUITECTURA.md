@@ -1,4 +1,4 @@
-# Arquitectura de GymGym
+# Arquitectura de Pedro Acosta Training
 
 El mapa del proyecto: qué hace cada archivo, cómo viaja una acción de punta a punta y dónde quedan tus datos.
 Escrito el 13 de septiembre de 2026. Si algo no coincide con el código, manda el código.
@@ -7,7 +7,7 @@ Escrito el 13 de septiembre de 2026. Si algo no coincide con el código, manda e
 
 ## 1. La idea en una frase
 
-GymGym es una página web que se instala en el iPhone como si fuera una app, funciona sin internet y guarda tus entrenamientos **dentro del propio teléfono**. No hay servidor, cuenta ni nube: todo pasa en el celular.
+Pedro Acosta Training (internamente `gymgym`) es una página web que se instala en el iPhone como si fuera una app, funciona sin internet y guarda tus entrenamientos **dentro del propio teléfono**. No hay servidor, cuenta ni nube: todo pasa en el celular.
 
 - **App publicada:** https://pjavbrain.github.io/gymgym/
 - **Código:** https://github.com/pjavbrain/gymgym
@@ -68,7 +68,6 @@ Los 13 primeros son la app. Los tres de `tools/` son ayudas para trabajar en la 
 | `manifest.json` | La ficha para instalar la app: nombre, colores, íconos, pantalla completa, vertical. |
 | `.gitignore` | Lista de archivos que no se suben a GitHub. |
 | `.claude/launch.json` | Le dice a Claude Code cómo encender el servidor de prueba. No se sube. |
-| `img/.gitkeep` | Archivo casi vacío para que la carpeta de imágenes exista en GitHub. |
 | `README.md` | Instrucciones rápidas: correr, instalar, diseño. |
 | `ARQUITECTURA.md` | Este documento. |
 | `CLAUDE.md` | Reglas del proyecto para Claude. |
@@ -109,7 +108,7 @@ La parte después de `#` en la dirección decide la pantalla. `app.js` la lee y 
 
 1. **Tocas el ícono.** El iPhone lee `manifest.json` y abre la app a pantalla completa, en vertical y con fondo oscuro.
 2. **El teléfono pide la página.** La primera vez viene de internet (GitHub Pages). Desde la segunda, `sw.js` la entrega desde la copia guardada, sin internet.
-3. **Se abre `index.html`.** Carga `css/styles.css`, dibuja la barra de arriba ("GymGym" y "Exportar") y ejecuta `js/app.js`.
+3. **Se abre `index.html`.** Carga `css/styles.css`, dibuja la barra de arriba ("Pedro Acosta Training" y "Exportar") y ejecuta `js/app.js`.
 4. **Arranca `js/app.js`.** Trae las demás piezas (`rutina.js`, `db.js`, `ui.js`, `sonido.js`, `exportar.js` y las tres vistas) y deja listos el botón Exportar, la pantalla encendida y el desbloqueo del sonido con tu primer toque (el iPhone no deja sonar nada antes).
 5. **Se lee la rutina.** `app.js` le pide a `js/rutina.js` que cargue `rutina.json`.
 6. **Se elige pantalla.** Sin nada después de `#`, `app.js` muestra `js/vistas/dias.js`.
@@ -124,8 +123,8 @@ La parte después de `#` en la dirección decide la pantalla. `app.js` la lee y 
 
 ## 5. Recorrido B: registro una serie
 
-1. **Entras a un ejercicio.** `js/vistas/ejercicio.js` pregunta a `js/db.js` por el entrenamiento abierto, las series ya guardadas hoy (para saber si vas en la 1, 2 o 3) y lo que hiciste la última vez. Dibuja la pantalla y sugiere peso y repeticiones.
-2. **Ajustas con − y +.** Lo maneja `ejercicio.js`. **Todavía no se guarda nada.**
+1. **Entras a un ejercicio.** `js/vistas/ejercicio.js` pregunta a `js/db.js` por el entrenamiento abierto, las series ya guardadas hoy (para saber si vas en la 1, 2 o 3) y lo que hiciste la última vez. Dibuja la pantalla y sugiere peso y repeticiones. Debajo de los botones deja dos desplegables cerrados: "Cómo se hace" (los pasos del campo `ejecucion` de `rutina.json`) y "Notas".
+2. **Ajustas con − y +.** El peso cambia de 5 en 5 kg y las repeticiones de 1 en 1. Lo maneja `ejercicio.js`. **Todavía no se guarda nada.**
 3. **Tocas "Guardar serie 1".** Lo recibe `ejercicio.js`: bloquea el botón un instante (contra el doble toque) y le pide a `js/ui.js` que convierta "82,5" en 82.5.
 4. **Se guarda.** `js/db.js` escribe en el cajón `series`: entrenamiento, ejercicio, número de serie, peso, repeticiones y hora. Si corriges la misma serie, la reemplaza en vez de duplicarla.
 5. **Cambia el estado.** `db.js` marca el ejercicio como "en curso".
@@ -194,5 +193,4 @@ El código, `rutina.json` sin datos médicos y los íconos.
 - Resumen de la sesión al cerrar el día.
 - Botón para importar un historial exportado.
 - Pantalla con consideraciones y progresión (hoy solo en `rutina-completa.json`).
-- Fotos de los ejercicios en `img/`.
 - Cuenta regresiva para ejercicios por tiempo (bici, caminata).

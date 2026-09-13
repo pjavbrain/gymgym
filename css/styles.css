@@ -1,4 +1,4 @@
-/* ===== GymGym — caucho, tiza y discos. Modo oscuro, alto contraste, una mano ===== */
+/* ===== Pedro Acosta Training — caucho, tiza y discos. Modo oscuro, alto contraste, una mano ===== */
 
 :root {
   color-scheme: dark;
@@ -264,7 +264,9 @@ button { cursor: pointer; touch-action: manipulation; }
   font-weight: 700;
   font-size: 2.67rem;
   line-height: 0.98;
+  color: var(--azul);
 }
+.serie-nombre--completo { color: var(--verde); }
 .serie-cue { margin: 8px 0 0; max-width: 60ch; color: var(--polvo); font-size: 1.05rem; line-height: 1.4; }
 
 .serie-progreso { display: flex; align-items: center; justify-content: space-between; margin: 16px 0 10px; }
@@ -376,7 +378,7 @@ button { cursor: pointer; touch-action: manipulation; }
   @keyframes aviso-fin { 50% { background: rgba(99, 184, 106, 0.3); } }
 }
 
-/* Secundarios discretos */
+/* Secundarios plegables bajo las acciones: como se hace, notas, video */
 .extras { margin-top: 22px; border-top: 1px solid var(--linea); }
 .extras details { border-bottom: 1px solid var(--linea); }
 .extras summary {
@@ -392,6 +394,10 @@ button { cursor: pointer; touch-action: manipulation; }
 .extras summary::-webkit-details-marker { display: none; }
 .extras summary::after { content: "+"; font-size: 1.4rem; }
 .extras details[open] summary::after { content: "−"; }
+.pasos { max-width: 60ch; margin: 0 0 16px; padding-left: 1.4em; line-height: 1.5; }
+.pasos li { padding-left: 4px; }
+.pasos li + li { margin-top: 8px; }
+.pasos li::marker { color: var(--polvo); font-family: var(--f-display); font-weight: 700; }
 .notas-texto { max-width: 60ch; margin: 0 0 16px; color: var(--polvo); line-height: 1.55; }
 
 .link-video {
@@ -405,8 +411,6 @@ button { cursor: pointer; touch-action: manipulation; }
   text-underline-offset: 4px;
 }
 
-.ej-imagenes { display: flex; flex-wrap: wrap; gap: 10px; padding: 14px 0; }
-.ej-imagenes img { flex: 1 1 45%; max-width: 100%; border-radius: 8px; }
 
 /* Aviso breve: arriba, lejos del pulgar */
 .toast {
